@@ -1,6 +1,7 @@
 import { RecoilRoot } from 'recoil';
 import FontButton from './components/RecoilExample/FontButton';
-import Text from './components/RecoilExample/text';
+import Header from './components/RecoilExample/Header';
+import CharacterCounter from './components/RecoilExample/CharacterCounter';
 
 import './App.css';
 function App() {
@@ -8,7 +9,8 @@ function App() {
     <div className="App">
       <RecoilRoot>
         <FontButton />
-        <Text />
+        <Header />
+        <CharacterCounter />
       </RecoilRoot>
     </div>
   );

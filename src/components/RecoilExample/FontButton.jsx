@@ -1,5 +1,5 @@
 import { useRecoilState } from 'recoil';
-import { fontSizeState } from './store';
+import { fontSizeState } from './fontSizeStore';
 
 function FontButton() {
   const [fontSize, setFontSize] =
